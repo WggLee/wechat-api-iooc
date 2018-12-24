@@ -1,0 +1,14 @@
+[
+  {
+    "name": "wechat_iooc",
+    "script": "app-server.js",
+    "exec_mode": "cluster",
+    "instances": 2,
+    "merge_logs"  : true,
+    "watch": false,
+    "env": {
+      "NODE_PORT": 8000,
+      "NODE_ENV": "production"
+    }
+  }
+]
